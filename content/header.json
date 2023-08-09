@@ -5,15 +5,15 @@
   },
   "contacts_stripe": {
     "pages": [],
-    "phone_wpp": true,
-    "socials": true
+    "phone_wpp": false,
+    "socials": false
   },
   "categories_list": {
     "featured": [],
     "random": 0,
     "full_width": false
   },
-  "centralized_logo": true,
+  "centralized_logo": false,
   "desktop_megamenu": false,
   "search_input": false,
   "alphabetical_order_submenu": false,
