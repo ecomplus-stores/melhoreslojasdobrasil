@@ -4,7 +4,7 @@
   "primary_color": "#e83e8c",
   "theme": {
     "bootswatch": "minty",
-    "custom": "ecom-beauty"
+    "custom": "_"
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/melhoreslojasdobrasil",
