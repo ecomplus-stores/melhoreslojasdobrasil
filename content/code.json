@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": ".header__toggler-block {\n      display: none;\n}",
   "html_head": "",
   "html_body": ""
 }
