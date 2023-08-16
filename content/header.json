@@ -1,20 +1,22 @@
 {
   "marketing_stripe": {
-    "text": "Maior e Melhor lista de fornecedores do Brasil!",
-    "link": ""
+    "text": "A maior lista de fornecedores do Brasil",
+    "link": "",
+    "background": "#e60436",
+    "color": "#ffffff"
   },
   "contacts_stripe": {
     "pages": [],
     "phone_wpp": false,
-    "socials": false
+    "socials": true
   },
   "categories_list": {
     "featured": [],
     "random": 0,
     "full_width": false
   },
-  "centralized_logo": false,
-  "desktop_megamenu": true,
+  "centralized_logo": true,
+  "desktop_megamenu": false,
   "search_input": false,
   "alphabetical_order_submenu": false,
   "full_width_submenu": false
