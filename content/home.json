@@ -32,6 +32,10 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/ab.webp"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/ac.webp"
     }
   ]
 }
