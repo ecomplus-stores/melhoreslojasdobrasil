@@ -27,11 +27,13 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/aa.webp"
+      "img": "/img/uploads/aa.webp",
+      "link": "https://melhoreslojasdobrasil.netlify.app/app/#/lp/64db866e2cd6b6595918099d/checkout/1"
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/ab.webp"
+      "img": "/img/uploads/ab.webp",
+      "link": "https://melhoreslojasdobrasil.netlify.app/app/#/lp/64db866e2cd6b6595918099d/checkout/1"
     },
     {
       "type": "responsive-banner",
