@@ -105,18 +105,14 @@ const isAlphabeticalOrderSubmenu = header.alphabetical_order_submenu
         >
           <div class="d-inline-block btn-group dropleft">
             <a
-              class="dropdown-toggle btn btn-lg pb-0"
-              data-toggle="dropdown"
-              role="button"
-              href="#"
-              title="<%= _.dictionary('myOrders') %>"
-            >
-              <i class="i-user"></i>
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://mono.direct/" target="_blank">Edite seu Monocard</a>
-              <a id="user-button" class="dropdown-item" href="/app/#/account/">Veja seus pedidos</a>
-            </div>
+            id="user-button"
+            class="btn btn-lg"
+            role="button"
+            href="/app/#/account/"
+            title="<%= _.dictionary('myAccount') %>"
+          >
+            <i class="i-user"></i>
+          </a>
           </div>
           <a
             id="cart-button"
@@ -145,86 +141,7 @@ const isAlphabeticalOrderSubmenu = header.alphabetical_order_submenu
       </div>
 
       <div class="col px-2 px-md-3">
-        <nav class="header__nav">
-          <div class="d-none d-lg-inline-block btn-group dropdown ml-1">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Produtos
-              <span class="text-muted">
-                <i class="i-chevron-down"></i>
-              </span>
-            </a>
-            <div class="dropdown-menu mt-3">
-              <a class="dropdown-item" href="/cartao-personalizado">
-                Monocard
-                <span class="inline-block ml-2">
-                  <i class="i-qr-code-20-solid"></i> <i class="i-wifi-20-solid"></i>
-                </span>
-              </a>
-              <a id="user-button" class="dropdown-item" href="/monodot">
-                Monodot
-                <span class="inline-block" style="float: right">
-                  <i class="i-wifi-20-solid"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-          <% if (header.contacts_stripe.pages) { %>
-            <% header.contacts_stripe.pages.forEach(({ link, title }, i)=> { %>
-              <div class="ml-lg-1 <%= (i < header.contacts_stripe.pages.length - 1 ? 'd-none d-lg-inline-block' : 'd-inline-block') %>">
-                <a href="<%= link %>">
-                  <%- title %>
-                </a>
-              </div>
-            <% }) %>
-          <% } %>
-          <% categories.forEach(({ slug, name, _id}) => { %>
-            <% let $categoryLink %>
-            <div class="d-inline-block">
-              <a
-                href="javascript:;"
-                class="header__category"
-                id="cd-<%= _id %>"
-                <%- hasMegamenu
-                  ? `onmouseover="toggleSubmenu('${slug}', this)" onclick="toggleSubmenu('${slug}', this, true)"`
-                  : `onclick="toggleSidenav('${slug}')"` %>
-              >
-                <%= name %>
-              </a>
-              <%- $categoryLink %>
-              <%  if (slug && hasMegamenu) { %>
-                <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
-                <% if (subcategories.length) { %>
-                  <%
-                    if (isAlphabeticalOrderSubmenu) {
-                      subcategories.sort((a, b)=> {
-                        return b.name > a.name ? -1 : 1
-                      })
-                    }
-                  %>
-                  <nav class="header__submenu<%= fullWidthSubmenu ? ' header__submenu--full' : '' %>" id="<%= `s-${slug.replace(/\//g, '_')}` %>">
-                    <% subcategories.forEach(subcategory => { %>
-                      <div>               
-                        <a id="sd-<%= subcategory._id %>" href="/<%= subcategory.slug %>"><%= subcategory.name %></a>
-                        <% const thirdCategories = _.categories.filter(({ parent }) => parent && parent.slug === subcategory.slug) %>
-                        <%
-                          if (isAlphabeticalOrderSubmenu) {
-                            thirdCategories.sort((a, b)=> {
-                              return b.name > a.name ? -1 : 1
-                            })
-                          }
-                        %>
-                        <% thirdCategories.forEach(thirdCategory => { %>
-                          <a id="td-<%= thirdCategory._id %>" class="header__submenu-subcategory" href="/<%= thirdCategory.slug %>">
-                            <%= thirdCategory.name %>
-                          </a>
-                        <% }) %>
-                      </div>
-                    <% }) %>
-                  </nav>
-                <% } %>
-              <% } %>
-            </div>
-          <% }) %>
+        
         </nav>
       </div>
     </div>
