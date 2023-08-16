@@ -35,7 +35,8 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/ac.webp"
+      "img": "/img/uploads/ac.webp",
+      "link": "https://www.instagram.com/melhoreslojasbrassp/"
     }
   ]
 }
