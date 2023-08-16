@@ -1,26 +1,26 @@
 {
   "domain": "melhoreslojasdobrasil.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#e83e8c",
+  "primary_color": "#0c0006",
   "theme": {
     "bootswatch": "minty",
     "custom": "_"
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/melhoreslojasdobrasil",
-  "logo": "/img/uploads/logo.png",
+  "logo": "/img/uploads/logo-pra-fundo-claro.png",
   "name": "Melhores lojas do Brasil",
   "short_name": "Melhores lojas do Brasil",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
   "font_family": "_",
-  "favicon": "/img/uploads/favicon.png",
+  "favicon": "/img/uploads/fv.png",
   "icons_font": "_",
   "country_code": "BR",
-  "secondary_color": "#ebb2b9",
-  "icon": "/img/uploads/logo.png",
+  "secondary_color": "#e60436",
+  "icon": "/img/uploads/logo-pra-fundo-claro.png",
   "store_id": 51438,
   "description": "Melhores lojas do Brasil",
-  "large_icon": "/img/uploads/logo.png"
+  "large_icon": "/img/uploads/logo-pra-fundo-claro.png"
 }
