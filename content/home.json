@@ -10,17 +10,17 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/1.png"
+          "img": "/img/uploads/1.webp"
         }
       ]
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/topo.png"
+      "img": "/img/uploads/topo.webp"
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/meio.png"
+      "img": "/img/uploads/meio.webp"
     }
   ]
 }
