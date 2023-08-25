@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.743260c6f13a56ff11cfcf3822ec92d2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.a340ba562ed1e50d50af21cfa0518ede.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.ea7cd65a67e5319d55e209767a292098.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.0b95064bb362f3774933888cd431f6bd.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.a0ecc9ec1b28ebf184651a1fc0e11dd6.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Melhores lojas do Brasil",
+  "short_name": "Melhores lojas do Brasil",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Melhores lojas do Brasil",
+  "background_color": "#ffffff",
+  "theme_color": "#0c0006"
+}
