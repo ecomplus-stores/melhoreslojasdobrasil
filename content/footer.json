@@ -4,9 +4,18 @@
     "text": ""
   },
   "links_1": {
-    "list_pages": true,
+    "list_pages": false,
     "title": "Páginas",
-    "list": []
+    "list": [
+      {
+        "url": "/pages/privacidade",
+        "text": "Política de privacidade"
+      },
+      {
+        "text": "Contrato de venda",
+        "url": "/pages/contrato-de-venda"
+      }
+    ]
   },
   "links_2": {
     "list_categories": true,
