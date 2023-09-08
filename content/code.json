@@ -1,5 +1,5 @@
 {
-  "css": ".shipping-calculator {\n    display: none;\n}\n\n@media (max-width: 992px)\n.gallery {\n    display: none;\n}\n\n.gallery__thumbs {\n    display: none;\n}\n",
+  "css": ".shipping-calculator {\n    display: none;\n}\n\n@media (max-width: 992px)\n.gallery {\n    display: none;\n}\n\n.gallery__thumbs {\n    display: none;\n}\n\n.order-info__toggle, .order-info__unsubscribe {\n    display: none;\n}",
   "html_head": "",
   "html_body": ""
 }
