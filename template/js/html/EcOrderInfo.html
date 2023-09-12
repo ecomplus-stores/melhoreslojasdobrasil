@@ -153,10 +153,17 @@
                   </template>
 
                   <div 
-                    v-if="isPaid"
+                    v-if="isPaid && isAuthenticated"
                     class="order-info__download mt-3"
                   >
                     <a href="https://drive.google.com/drive/folders/1cK0B4xPo-08CJ8V7DhOd7fOI7wC42kyb" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="width: 100%;">Acessar lista</a>
+                  </div>
+
+                  <div 
+                    v-if="isPaid && !isAuthenticated"
+                    class="order-info__download mt-3"
+                  >
+                    <strong>Para acessar a lista, precisa ter feito login</strong>
                   </div>
   
                   <div class="order-info__details">
