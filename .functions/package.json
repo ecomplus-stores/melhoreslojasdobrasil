@@ -4,12 +4,12 @@
   "description": "SSR for Storefront on Firebase with Cloud Functions",
   "engines": {
     "node": "16",
-    "npm": "^8.19.0"
+    "npm": "^8.19.4"
   },
   "main": "index.js",
   "dependencies": {
     "@ecomplus/storefront-renderer": "^2.10.10",
-    "firebase-admin": "^11.8.0",
+    "firebase-admin": "^11.10.1",
     "firebase-functions": "^3.24.1"
   },
   "scripts": {
