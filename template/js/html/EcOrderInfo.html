@@ -156,7 +156,14 @@
                     v-if="isPaid && isAuthenticated"
                     class="order-info__download mt-3"
                   >
-                    <a href="https://drive.google.com/drive/folders/1cK0B4xPo-08CJ8V7DhOd7fOI7wC42kyb" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="width: 100%;">Acessar lista</a>
+                    <a :href="`https://drive.google.com/drive/folders/${dc}`" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="width: 100%;">Acessar lista</a>
+                    <div style="border: 1px solid #000; padding: 10px; margin-top: 10px;">
+                      Olá.
+                      Agora você faz parte do nosso time dos “EXCLUSIVO”.
+                      PARA TER ACESSO AOS NOSSOS CONTEÚDOS EXCLUSIVOS VOCÊ PRECISA SOLICITAR ACEITAÇÃO PELO LINK ABAIXO
+                      <a href="https://instagram.com/listaexclusivamelhoreslojas?igshid=MzRlODBiNWFlZA==" target="_blank">https://instagram.com/listaexclusivamelhoreslojas?igshid=MzRlODBiNWFlZA==</a>
+                      Atenção: para poder ser aceito você precisa enviar no direct o: NÚMERO DO PEDIDO e EMAIL CADASTRADO NO SITE.
+                    </div>
                   </div>
 
                   <div 

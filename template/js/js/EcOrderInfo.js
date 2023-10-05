@@ -41,6 +41,24 @@ import {
   import EcomSearch from '@ecomplus/search-engine'
   import ShippingLine from '#components/ShippingLine.vue'
   import EcSummary from '@ecomplus/storefront-app/src/components/EcSummary.vue'
+
+  function encrypt(inputString, key) {
+    let encryptedString = '';
+    for (let i = 0; i < inputString.length; i++) {
+      const char = inputString.charAt(i);
+      const charCode = char.charCodeAt(0);
+      
+      // Add a key-based offset to the character code
+      const encryptedCharCode = charCode + key;
+      
+      // Convert back to a character
+      const encryptedChar = String.fromCharCode(encryptedCharCode);
+      
+      encryptedString += encryptedChar;
+    }
+    return encryptedString;
+  }
+  
   
   export default {
     name: 'EcOrderInfo',
@@ -125,6 +143,10 @@ import {
       i19unsubscribe: () => i18n(i19unsubscribe),
       i19zipCode: () => i18n(i19zipCode),
       i19invoice: () => 'Nota fiscal',
+
+      dc () {
+        return atob('MWNLMEI0eFBvLTA4Q0o4VjdEaE9kN2ZPSTd3QzQya3li')
+      },
   
       localOrder: {
         get () {
