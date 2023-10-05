@@ -2,6 +2,6 @@
 .header__logo {
     max-height: 140px;
 }
-.order-info__toggle {
+.order-info__toggle, .order-info__shipping .shipping-line small {
     display: none !important;
 }
