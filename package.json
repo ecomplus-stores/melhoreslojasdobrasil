@@ -43,7 +43,7 @@
     "@ecomplus/storefront-template": "^2.0.0-beta.280",
     "@netlify/zip-it-and-ship-it": "^5.13.5",
     "crypto-js": "^4.1.1",
-    "firebase-tools": "^13.29.2",
+    "firebase-tools": "^13.29.3",
     "lottie-web": "^5.12.2"
   },
   "devDependencies": {
